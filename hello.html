@@ -3,19 +3,44 @@
 <head>
     <title>Hello Viewer</title>
     <meta charset="utf-8">
+    <style>
+        .table-class{
+            background-image:url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/9-sakura-cherry-blossom-catlane.jpg");
+            background-position:230% 200%;
+        }
+    </style>
 </head>
 <body>
-   <form>
-     <table border="5" cellspacing="10" cellpadding="10">
+   <form >
+     <table border="5" cellspacing="10" cellpadding="10" width="80%" class="table-class" >
+    
        <tr>
          <th>Name</th>
-         <td input type="text" size="30" weigth="20px" maxlength="15" placeholder="Enter your name" required pattern="[a-zA-Z]"{10} title="Incorrect Name"></td>
+         <td input type="text" size="30" maxlength="50" placeholder="Enter your name" required pattern="[a-zA-Z]"{10} title="Incorrect Name" width="70%"></td>
        </tr>
 
        <tr>
          <th>Email</th>
          <td input type="email" size="30" maxlength="15" placeholder="Enter your email" required></td>
        </tr>
+
+       <tr>
+        <th>Password</th>
+        <td input type="Password" size="30" maxlength="15" placeholder="Enter your email" required pattern="[0-9a-zA-z]"{13} title="Incorrect Password"></td>
+      </tr>
+
+      <tr>
+        <th>Date of Birth</th>
+        <td input type="date" required></td>
+      </tr>
+      
+      <tr>
+        <th colspan="2"><a href="#">Submit Form</a></th>
+        <!--<td input type="Submit" formaction="user.txt" required></td>-->
+      </tr>
+
+
+
 
      </table>
    </form>
