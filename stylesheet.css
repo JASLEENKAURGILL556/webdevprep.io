@@ -1,0 +1,84 @@
+*{
+   padding: 0px;
+   margin: 0px;
+}
+
+
+body{
+	padding: 0px;
+	margin: 0px;
+	font-size: 20px;
+	font-family: conic: sans ms;
+}
+#header{
+     color: black;
+     padding: 50px;
+     margin-bottom: 30px;
+     background-color: beige;
+}
+
+
+#header h1{
+	font-family: conic: sans ms;
+	font-size: 70px;
+	color: rebeccapurple ;
+	text-shadow: 2px 2px 2px grey;
+
+}
+
+#header h2
+{
+	font-family: conic: sans ms;
+	font-size:20px;
+
+}
+
+#menu
+{
+	width: 20%;
+	background-color: white;
+	float: left;
+	
+}
+
+#menu a{
+	background-color: black;
+	color: white;
+	display: block;
+	padding: 10px;
+	border-bottom: 1px solid white;
+	text-decoration: none;
+	transition-property: all;
+	transition-duration: 1s;
+}
+
+#menu a:hover{
+	background-color: grey;
+	font-weight: bold;
+}
+
+#maincontent{
+	width: 50%;
+    float: left;
+    padding:10px;
+}
+
+#rightside{
+	width: 20%;
+	float: right;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+#rightside h1{
+	font-size: 16px;
+	padding: 20px;
+}
+
+#footer{
+	background-color: grey;
+	padding: 20px;
+	color: white;
+}
